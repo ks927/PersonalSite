@@ -1,0 +1,59 @@
+nav ul {
+    float: right;
+    margin-top: 25px;
+    margin-right: 35px;
+}
+
+nav li {
+    display: inline;
+    padding-right: 20px;
+}
+
+main {
+    position: absolute;
+    width: 90%;
+    margin: 25px;
+    margin-top: 85px;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+    height: 100px;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    cursor: pointer;
+}
+
+#sequitor {
+    text-align: left;
+}
+
+.portfolio {
+    width: 832px;
+    padding-top: 50px;
+    border-top: 2px solid black;
+}
+
+.portfolio ul {
+    float: left;
+}
+
+.portfolio li {
+    list-style: none;
+    padding-bottom: 30px;
+}
+
+.port-img {
+    height: 150px;
+}
