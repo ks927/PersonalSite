@@ -9,6 +9,10 @@ nav li {
     padding-right: 20px;
 }
 
+a {
+    text-decoration: none;
+    }
+
 main {
     position: absolute;
     width: 90%;
@@ -33,6 +37,10 @@ main {
 .tooltip:hover .tooltiptext {
     visibility: visible;
     cursor: pointer;
+}
+
+.about {
+    border-top: 1px solid black;
 }
 
 #sequitor {
