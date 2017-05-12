@@ -48,13 +48,12 @@ main {
 }
 
 .portfolio {
-    width: 832px;
     padding-top: 50px;
     border-top: 2px solid black;
 }
 
 .portfolio ul {
-    float: left;
+    float: ;
 }
 
 .portfolio li {
@@ -63,5 +62,14 @@ main {
 }
 
 .port-img {
-    height: 150px;
+    height: 250px;
+}
+
+#project {
+    display: block;
+    padding-bottom: 50px;
+}
+
+.skills {
+    border-top: 2px solid black;
 }
