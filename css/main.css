@@ -1,3 +1,13 @@
+/* Universal */
+
+body {
+    font-family: sans-serif;
+}
+
+
+
+/* Navigation */
+
 nav ul {
     float: right;
     margin-top: 25px;
@@ -13,6 +23,7 @@ a {
     text-decoration: none;
     }
 
+
 main {
     position: absolute;
     width: 90%;
@@ -21,22 +32,11 @@ main {
     text-align: center;
 }
 
+/* About */ 
+
 .img-circle {
     border-radius: 50%;
     height: 100px;
-}
-
-.tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-}
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-    cursor: pointer;
 }
 
 .about {
@@ -47,7 +47,9 @@ main {
     text-align: left;
 }
 
-.portfolio {
+/* Projects */
+
+.portfolio, .skills, .contact {
     padding-top: 50px;
     border-top: 2px solid black;
 }
@@ -70,6 +72,7 @@ main {
     padding-bottom: 50px;
 }
 
-.skills {
-    border-top: 2px solid black;
-}
+/* Skills */
+
+
+/* Contact */
