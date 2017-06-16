@@ -2,6 +2,13 @@
 <html>
 <head>
     <link href="css/main.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <title>Kyle Sheehan</title>    
 </head>
 <body>
@@ -29,47 +36,127 @@
 
     <p>Though I call myself gritty, I love craft beer, fancy watches, eating healthy, and good writing – in whatever form I can find it. Ben Franklin enlightened me on the ways of self-improvement, and Ernest Hemingway inspired me to run with the bulls. I’m a sports fanatic, especially of the [Philadelphia] teams where I reside. I train youth soccer teams and coach a girls high school team. Lionel Messi is the reason I wake up in the morning.</p>
     </div>
-    <div class="portfolio">
-        <h1 id="project">Projects</h1>
-    <ul>
-        <li id="blog">
-            <a href="https://ks927.github.io/Daily-Blog/">
-    <img class="port-img" src="images/DailyBlog.png"  />
+    <div class="container">
+        
+<!-- Page Heading -->
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="page-header">Projects</h1>
+        </div>
+      </div>
+<!-- /.row -->
+
+<!-- Project One -->
+      <div class="row">
+        <div class="col-md-7">
+          <a href="https://ks927.github.io/Daily-Blog/">
+            <img class="port-img" src="images/DailyBlog.png"  />
             </a>
-            <h2>Blog</h2>
-        </li>
-        <li id="members">
+        </div>
+        <div class="col-md-5">
+        <h3>Daily Coding Blog</h3>
+        <p>Productivity exercise turned tech blog. Daily log of what I'm studying and blog posts of advanced concepts from The Odin Project's curriculum. In no way is this a practice in coding skills or artistic web design.</p>
+        <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+      </div>
+         <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Two -->
+        <div class="row">
+          <div class="col-md-7">
             <a href="https://afternoon-everglades-65571.herokuapp.com/">
-    <img class="port-img" src="images/members.png" />
+              <img class="port-img" src="images/members.png" />
             </a>
-        <h2>Members Only</h2>
-        </li>
-        <li>
+          </div>
+        <div class="col-md-5">
+          <h3>Members Only</h3>
+          <p>Ruby on Rails app that stressed "rolling your own authentication" system. Signed-in users can create posts and see the authors of the other posts. When a user signs out, their cookie is deleted, and they can no longer create new posts. Additionally, the authors of the existing posts switch to "Anonymous".</p>
+          <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+       </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Three -->
+        <div class="row">
+          <div class="col-md-7">
             <a href="https://glacial-retreat-36955.herokuapp.com/?guess=">
-    <img class="port-img" src="images/sinatra_hangman.png" />
+              <img class="port-img" src="images/sinatra_hangman.png" />
             </a>
-            <h2>Hangman</h2>
-        </li>
-        <li>
+            </div>
+            <div class="col-md-5">
+              <h3>Hangman</h3>
+              <p>Sinatra Hangman game written in Ruby. Uses Object Oriented Programming to initialize the game and play methods.</p>
+              <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+              </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Four -->
+        <div class="row">
+          <div class="col-md-7">
             <a href="https://gentle-woodland-67110.herokuapp.com/">
-    <img class="port-img" src="images/CaesarCipher.png" />
+              <img class="port-img" src="images/CaesarCipher.png" />
             </a>
-            <h2>Caesar Cipher</h2>
-        </li>
-        <li>
-    <img class="port-img" src="images/ConnectFour.png" />
-            <h2>Connect Four</h2>
-        </li>
-        <li>
-    <img class="port-img" src="images/web_guess.png" />
-            <h2>Web Guesser</h2>
-        </li>
-        <li>
-    <img class="port-img" src="images/etch-a-sketch.png" />
-            <h2>Etch-a-Sketch</h2>
-        </li>
-    </ul>
-</div>
+           </div>
+            <div class="col-md-5">
+            <h3>Caesar Cipher</h3>
+            <p>Sinatra Caesar Cipher app written in Ruby. Enter a string and a number and the app will return your string shifted up the alphabet that many numbers.</p>
+            <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Four -->
+        <div class="row">
+          <div class="col-md-7">
+            <img class="port-img" src="images/ConnectFour.png" />
+            </div>
+            <div class="col-md-5">
+            <h3>Connect Four</h3>
+            <p>Comman line connect four game written in Ruby. Uses object oriented programming practices to change turns and declare a winner if four pieces are dropped in a row.</p>
+            <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Five -->
+        <div class="row">
+          <div class="col-md-7">
+            <img class="port-img" src="images/web_guess.png" />
+            </div>
+            <div class="col-md-5">
+            <h3>Web Guesser</h3>
+            <p>Sinatra run number guesser app. Guess a number from 0-100. If you're within 5, the background changes color and a message lets you know you're close. If you don't get it within 5 guesses, a new number is generated.</p>
+            <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Five -->
+        <div class="row">
+          <div class="col-md-7">
+            <img class="port-img" src="images/etch-a-sketch.png" />
+            </div>
+            <div class="col-md-5">
+            <h3>Etch-a-Sketch</h3>
+            <p>Etch-a-sketch written in JQuery just like you had when you were a kid. Drag your cursor across the screen and the grid turns gray. You can make the squares smaller or larger to adjust the size of your stencil.</p>
+            <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+    </div>
+   
     
     <div class="skills">
         <h1 id="skill">Skills</h1>
