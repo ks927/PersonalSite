@@ -45,6 +45,7 @@ main {
 
 .about {
     border-top: 1px solid black;
+    border-bottom: 1px solid #e8e8e8;
 }
 
 #sequitor {
