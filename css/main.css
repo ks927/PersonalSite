@@ -23,6 +23,10 @@ a {
     text-decoration: none;
     }
 
+.glyphicon {
+    font-size: 24px;
+}
+
 
 main {
     position: absolute;
@@ -45,7 +49,9 @@ main {
 
 #sequitor {
     text-align: left;
+    font-size: 2em;
 }
+
 
 /* Projects */
 
