@@ -44,21 +44,25 @@ main {
 }
 
 .about {
+    padding-top: 10px;
+    text-align: left;
     border-top: 1px solid black;
     border-bottom: 1px solid #e8e8e8;
+    font-size: 16px;
 }
 
 #sequitor {
     text-align: left;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 
 /* Projects */
 
 .portfolio, .skills, .contact {
-    padding-top: 50px;
-    border-top: 2px solid black;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #e8e8e8;
 }
 
 .portfolio ul {
@@ -81,5 +85,13 @@ main {
 
 /* Skills */
 
+#icons {
+    font-size: 70px;
+    
+}
 
 /* Contact */
+
+.contact {
+    font-size: 18px;
+}
