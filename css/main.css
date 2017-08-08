@@ -60,7 +60,13 @@ main {
 
 /* Projects */
 
-.portfolio, .skills, .contact {
+.projects {
+    border: 1px solid lightgray;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.skills, .contact {
     margin-top: 50px;
     padding-top: 20px;
     border-top: 1px solid #e8e8e8;
@@ -82,6 +88,7 @@ main {
 #project {
     display: block;
     padding-bottom: 50px;
+    border-bottom: none;
 }
 
 /* Skills */
