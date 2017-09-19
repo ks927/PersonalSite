@@ -8,11 +8,17 @@ body {
 
 /* Navigation */
 
+.navbar-inverse {
+    background-color: #eee !important;
+    border: none !important;
+    opacity: .85;
+}
+
 nav ul {
     float: right;
     margin-top: 25px;
     margin-right: 35px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 nav li {
@@ -22,12 +28,12 @@ nav li {
 
 a {
     text-decoration: none;
+    cursor: pointer;
     }
 
 .glyphicon {
-    font-size: 20px;
+    font-size: 18px;
 }
-
 
 main {
     position: absolute;
