@@ -1,14 +1,15 @@
 /* Universal */
 
 body {
-    font-family: monospace !important;
+    font-family: 'Ubuntu', 'sans-serif' !important;
     /*background: #212127;
     color: #fff;
     */
 }
 
-
-
+.container {
+    width: 85% !important;
+}
 /* Navigation */
 
 .navbar-inverse {
