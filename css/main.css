@@ -100,6 +100,10 @@ main {
     border-bottom: none;
 }
 
+.individual_proj {
+    margin-left: -50px;
+}
+
 /* Skills */
 .skills {
     border-bottom: 1px solid #e8e8e8;
